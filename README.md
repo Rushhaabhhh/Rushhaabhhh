@@ -44,10 +44,22 @@
 
 </div>
 
+# 📊 LeetCode and GitHub Stats :
 
-# 📊 GitHub Stats :
-![](https://github-readme-streak-stats.herokuapp.com/?user=Rushhaabhhh&theme=dark&hide_border=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rushhaabhhh&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact) 
+<table>
+  <tr>
+    <td>
+      <a href="https://leetcode.com/rushhaabhhh/">
+        <img src="https://leetcard.jacoblin.cool/rushhaabhhh?theme=dark&font=source_code_pro&ext=contest" alt="LeetCode Contest Rating" />
+      </a>
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rushhaabhhh&theme=dark&hide_border=true" alt="Streak Stats" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rushhaabhhh&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
 
 # 🌍 Let's Connect! 
 <div align="center"> 
