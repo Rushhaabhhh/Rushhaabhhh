@@ -60,6 +60,7 @@
   </tr>
 </table>
 
+[![An image of @rushaabhhh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rushaabhhh)](https://holopin.io/@rushaabhhh)
 
 # 🌍 Let's Connect! 
 <div align="center"> 
