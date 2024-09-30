@@ -1,15 +1,15 @@
 # 💫 About Me :
 🔭 I’m currently working on a **DApp** and **Mobile app**
 <br>
-🌱 I’m currently learning **Solidity**, **React Native**, **Next.js**
+🌱 I’m currently learning **Solidity**, **React Native**, **Django**
 <br>
-🎓 I'm a second-year CS student passionate about **blockchain** and **mobile development**
+🎓 I'm a second-year CS student passionate about **blockchain** and **open source**
 <br>
 💡 I'm exploring **Web3** and **decentralized technologies** to build innovative projects
 <br>
 ⚡ Fun fact: I love tackling **complex problems** and turning them into **creative solutions**
 <br>
-📄<a href="https://drive.google.com/file/d/1pI-POv7vaTuadnnXXtaU3bLf48U5EwYK/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
+📄<a href="https://drive.google.com/file/d/13AT9rMTYMU3btSqv6RIRVkTAIGxNnSmm/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
 
 
 # 💻 Technical Skills :
