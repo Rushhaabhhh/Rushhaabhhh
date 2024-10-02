@@ -1,7 +1,7 @@
 # 💫 About Me :
-🔭 I’m currently working on a **DApp** and **Mobile app**
+🔭 I’m currently working on a **DApps** and **Open Source**
 <br>
-🌱 I’m currently learning **Solidity**, **React Native**, **Django**
+🌱 I’m currently learning **Solidity** and **Django**
 <br>
 🎓 I'm a second-year CS student passionate about **blockchain** and **open source**
 <br>
@@ -66,6 +66,8 @@
 <div align="center"> 
   <a href="https://www.linkedin.com/in/rushabhmistry1610"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:rushabhmistry@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://discord.com/users/rushhaabhhh"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+
 </div>
 
 
