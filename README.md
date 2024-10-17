@@ -1,16 +1,13 @@
 # 💫 About Me :
-🔭 I’m currently working on a **DApps** and **Open Source**
-<br>
-🌱 I’m currently learning **Solidity** and **Django**
-<br>
-🎓 I'm a second-year CS student passionate about **blockchain** and **open source**
-<br>
-💡 I'm exploring **Web3** and **decentralized technologies** to build innovative projects
-<br>
-⚡ Fun fact: I love tackling **complex problems** and turning them into **creative solutions**
-<br>
+🔭 I’m currently building innovative **DApps** and contributing to **Open Source**.  
+🌱 On a journey to master **Core JavaScript, Solidity** and dive deep into **decentralized technologies**.  
+🎓 A second-year **CS student** passionate about **blockchain**, **smart contracts**, and **Web3 development**.  
+<br/>
 📄<a href="https://drive.google.com/file/d/13AT9rMTYMU3btSqv6RIRVkTAIGxNnSmm/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="200px"/>
+</p>
 
 # 💻 Technical Skills :
 <div align="center">
@@ -32,15 +29,12 @@
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) 
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
@@ -67,7 +61,6 @@
   <a href="https://www.linkedin.com/in/rushabhmistry1610"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:rushabhmistry@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://discord.com/users/rushhaabhhh"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
-
 </div>
 
 
