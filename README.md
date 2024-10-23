@@ -1,3 +1,7 @@
+<p align="center" width='full'>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90&section=header"/>
+</p>
+
 # 💫 About Me :
 🔭 I’m currently building innovative **DApps** and contributing to **Open Source**.  
 🌱 On a journey to master **Core JavaScript, Solidity** and dive deep into **decentralized technologies**.  
@@ -54,6 +58,16 @@
   </tr>
 </table>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rushhaabhhh&theme=react-dark" alt="Contribution Graph" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rushhaabhhh/Rushhaabhhh/output/github-contribution-grid-snake.svg" alt="github-snake" />
+</p>
+
+
+
 [![An image of @rushaabhhh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rushaabhhh)](https://holopin.io/@rushaabhhh)
 
 # 🌍 Let's Connect! 
@@ -63,4 +77,6 @@
   <a href="https://discord.com/users/rushhaabhhh"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 </div>
 
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=95&section=footer"/>
+</p>
