@@ -1,48 +1,44 @@
-name: Generate Snake
+<style>
+.contribution-grid {
+  position: relative;
+  overflow: hidden;
+}
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
-  workflow_dispatch:
+.firework-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
 
-permissions:
-  contents: write
+.eaten-dot {
+  animation: pulse 0.5s ease-out;
+}
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4  
-        
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          
-      - name: Setup directory
-        run: |
-          mkdir -p dist
-          ls -la
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
 
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Rushhaabhhh 
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
-      - name: Verify Output
-        run: |
-          ls -la dist/
-          
-      - name: Push to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "🐍 Generate Snake Animation"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+.pacman {
+  animation: eat 0.4s linear infinite;
+}
+
+@keyframes eat {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(45deg); }
+  100% { transform: rotate(0deg); }
+}
+</style>
