@@ -63,10 +63,7 @@
 </p>
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rushhaabhhh/Rushhaabhhh/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Rushhaabhhh/Rushhaabhhh/output/github-contribution-grid-snake.svg"/>
-</picture>
+
 
 
 [![An image of @rushaabhhh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rushaabhhh)](https://holopin.io/@rushaabhhh)
