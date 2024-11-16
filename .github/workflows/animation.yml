@@ -1,153 +1,39 @@
-name: Generate Pacman
+name: Generate Snake
+
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
+    - cron: "0 */24 * * *" # Run every 6 hours
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      - uses: actions/checkout@v4
-      
-      - uses: actions/setup-node@v4
+      # Checkout the repository
+      - uses: actions/checkout@v2
+
+      # Create the 'dist' directory to avoid issues with missing directory
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      # Move the generated SVG to the 'dist' folder for dark mode
+
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          node-version: '20'
-          
-      - name: Setup Directory
-        run: |
-          mkdir -p dist
-          
-      - name: Generate Pacman Animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Rushhaabhhh
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-pacman.svg
-          
-          # Configuration for Pacman and gameplay elements
-          color_snake: '#FFFF00'
-          color_dots: '#2196f3'
-          
-          outputs_full: |
-            dist/github-contribution-grid-pacman.svg {
-              color_snake: "#FFFF00",
-              color_dots: "#2196f3",
-              color_sausage: "#FFFF00",
-              radius: 2,
-              frame_duration: 160,
-              transform_speed_ratio: 0.5
-            }
-          
-          # Combined CSS for Pacman and fireworks effects
-          css: |
-            :root {
-              --grid-size: 12px;
-              --color-snake: #FFFF00;
-              --color-food: #2196f3;
-              --grid-cell-size: 16px;
-            }
-            
-            .contribution-grid {
-              position: relative;
-              overflow: hidden;
-            }
-            
-            /* Pacman Animation */
-            .snake {
-              fill: var(--color-snake);
-              animation: chomp 0.4s linear infinite;
-            }
-            
-            @keyframes chomp {
-              0% { clip-path: circle(50%); }
-              50% { clip-path: polygon(100% 0, 50% 50%, 100% 100%, 0 100%, 0 0); }
-              100% { clip-path: circle(50%); }
-            }
-            
-            /* Dots and Food Animation */
-            .food {
-              fill: var(--color-food);
-              transition: transform 0.3s ease-out;
-            }
-            
-            .food.eaten {
-              animation: explode 0.5s ease-out forwards;
-            }
-            
-            @keyframes explode {
-              0% { transform: scale(1); opacity: 1; }
-              50% { transform: scale(2); opacity: 0.5; }
-              100% { transform: scale(0); opacity: 0; }
-            }
-            
-            /* Fireworks Animation */
-            .firework {
-              position: absolute;
-              width: 4px;
-              height: 4px;
-              background: radial-gradient(circle, #ff0 0%, #ff0 30%, transparent 70%);
-              border-radius: 50%;
-              animation: firework 1s ease-out forwards;
-            }
-            
-            @keyframes firework {
-              0% {
-                transform: translate(var(--x), var(--y)) scale(0);
-                opacity: 1;
-              }
-              50% {
-                transform: translate(
-                  calc(var(--x) + var(--vx) * 50px),
-                  calc(var(--y) + var(--vy) * 50px - 25px)
-                ) scale(1);
-                opacity: 0.8;
-              }
-              100% {
-                transform: translate(
-                  calc(var(--x) + var(--vx) * 100px),
-                  calc(var(--y) + var(--vy) * 100px)
-                ) scale(2);
-                opacity: 0;
-              }
-            }
-            
-            /* Score Animation */
-            .score-popup {
-              position: absolute;
-              font-family: 'Press Start 2P', cursive;
-              color: #FFD700;
-              font-size: 12px;
-              pointer-events: none;
-              animation: scoreFloat 1s ease-out forwards;
-            }
-            
-            @keyframes scoreFloat {
-              0% { transform: translateY(0); opacity: 1; }
-              100% { transform: translateY(-20px); opacity: 0; }
-            }
-            
-            /* Power-up Animation */
-            .power-up {
-              fill: #FFD700;
-              animation: pulse 1s infinite;
-            }
-            
-            @keyframes pulse {
-              0% { transform: scale(1); }
-              50% { transform: scale(1.2); }
-              100% { transform: scale(1); }
-            }
-      
-      - name: Push to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Debug step to ensure 'dist' directory and snake files exist
+      - name: List dist directory contents
+        run: ls -la dist
+
+      # Deploy the snake svgs to the output branch using GitHub Pages action
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🎮 Generate Pacman Animation"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNAKE_ANIMATION_TOKEN }}
