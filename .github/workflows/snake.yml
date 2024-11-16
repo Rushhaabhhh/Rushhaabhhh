@@ -1,39 +1,44 @@
 name: Generate Snake
-
 on:
   schedule:
-    - cron: "0 */24 * * *" # Run every 6 hours
+    - cron: "0 0 * * *"  # Runs daily at midnight
   workflow_dispatch:
-
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
-      # Checkout the repository
-      - uses: actions/checkout@v2
-
-      # Create the 'dist' directory to avoid issues with missing directory
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      # Move the generated SVG to the 'dist' folder for dark mode
-
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4  
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
+          node-version: '20'
+          
+      - name: Setup directory
+        run: |
+          mkdir -p dist
+          ls -la
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Rushhaabhhh 
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # Debug step to ensure 'dist' directory and snake files exist
-      - name: List dist directory contents
-        run: ls -la dist
-
-      # Deploy the snake svgs to the output branch using GitHub Pages action
-      - uses: crazy-max/ghaction-github-pages@v4
+            
+      - name: Verify Output
+        run: |
+          ls -la dist/
+          
+      - name: Push to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🐍 Generate Snake Animation"
         env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_ANIMATION_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
