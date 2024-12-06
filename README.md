@@ -3,9 +3,9 @@
 </p>
 
 # 💫 About Me :
-🔭 I’m currently building innovative **DApps** and contributing to **Open Source**.  
-🌱 On a journey to master **Core JavaScript, Solidity** and dive deep into **decentralized technologies**.  
-🎓 A second-year **CS student** passionate about **blockchain**, **smart contracts**, and **Web3 development**.  
+🔭 Building innovative systems with a focus on **scalable system designs** and **advanced production techniques**. </br>
+🌱 Mastering **Core JavaScript, Next.js**, while contributing to **open-source communities**. </br>
+🎓 A second-year CS student passionate about **software architecture, smart contracts**, and **Web3**, with a growing expertise in **Solidity** and **decentralized technologies**.
 <br/>
 📄<a href="https://drive.google.com/file/d/13AT9rMTYMU3btSqv6RIRVkTAIGxNnSmm/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
 
@@ -25,6 +25,7 @@
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 
+![Redis](https://img.shields.io/badge/redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
