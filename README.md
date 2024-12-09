@@ -7,7 +7,7 @@
 🌱 Mastering **Core JavaScript, Next.js**, while contributing to **open-source communities**. </br>
 🎓 A second-year CS student passionate about **software architecture, smart contracts**, and **Web3**, with a growing expertise in **Solidity** and **decentralized technologies**.
 <br/>
-📄<a href="https://drive.google.com/file/d/13AT9rMTYMU3btSqv6RIRVkTAIGxNnSmm/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
+📄<a href="https://drive.google.com/file/d/1AJ98N-gX65ErBCdmGEIMAsQdeKhQCNFR/view?usp=sharing" style="text-decoration: underline; color: inherit;" onmouseover="this.style.color='#00ffff'" onmouseout="this.style.color='inherit'"> <b>Check out my Resume</b></a>
 
 <p align="center">
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="200px"/>
