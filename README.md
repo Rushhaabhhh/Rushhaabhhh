@@ -13,6 +13,10 @@
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="200px"/>
 </p>
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Rushhaabhhh&label=Profile%20views&color=0e75b6&style=flat" alt="Rushhaabhhh" />
+</p>
+
 # 💻 Technical Skills :
 <div align="center">
   
@@ -83,6 +87,8 @@
     src="https://raw.githubusercontent.com/Rushhaabhhh/Rushhaabhhh/main/dist/github-contribution-grid-snake.svg"
   />
 </picture>
+
+
 
 [![An image of @rushaabhhh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rushaabhhh)](https://holopin.io/@rushaabhhh)
 
