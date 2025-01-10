@@ -14,7 +14,7 @@
 </p>
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Rushhaabhhh&label=Profile%20views&color=0e75b6&style=flat" alt="Rushhaabhhh" />
+  <img src="https://komarev.com/ghpvc/?username=Rushhaabhhh&label=Profile%20views&color=0e75b6&style=social" alt="Rushhaabhhh" />
 </p>
 
 # 💻 Technical Skills :
