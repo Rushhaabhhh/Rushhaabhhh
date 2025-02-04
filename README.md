@@ -58,21 +58,27 @@
 
 </div>
 
-# 📊 LeetCode and GitHub Stats :
+# 📊 GitHub Stats :
 
 <table>
   <tr>
     <td>
-      <a href="https://leetcode.com/rushhaabhhh/">
-        <img src="https://leetcard.jacoblin.cool/rushhaabhhh?theme=dark&font=source_code_pro&ext=contest" alt="LeetCode Contest Rating" />
-      </a>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rushhaabhhh&theme=dark&hide_border=true" alt="GitHub Streak" />
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rushhaabhhh&theme=dark&hide_border=true" alt="Streak Stats" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rushhaabhhh&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Rushhaabhhh&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rushhaabhhh&theme=dark&hide_border=true&layout=compact" alt="Top Languages" />
+    </td>
+    <td>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rushhaabhhh&theme=dark" alt="Profile Summary" />
     </td>
   </tr>
 </table>
+
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rushhaabhhh&theme=react-dark" alt="Contribution Graph" />
