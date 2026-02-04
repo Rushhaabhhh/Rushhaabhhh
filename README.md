@@ -1,7 +1,3 @@
-<p align="center" width='full'>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90&section=header"/>
-</p>
-
 # 💫 About Me :
 🔭 Building innovative systems with a focus on **scalable system designs** and **advanced production techniques**. </br>
 🌱 Mastering **Core JavaScript, Next.js**, and **Django** while contributing to **open-source communities**. </br>
@@ -109,7 +105,3 @@
   <a href="mailto:rushabhmistry@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://discord.com/users/rushhaabhhh"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 </div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=95&section=footer"/>
-</p>
